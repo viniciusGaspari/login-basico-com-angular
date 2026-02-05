@@ -1,0 +1,34 @@
+#login-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+}
+
+h1 {
+  color: white;
+}
+#login-form input,
+#login-form button,
+#login-form label {
+  color: white;
+}
+
+
+#login-form .error-message {
+  text-align: center;
+  color: red;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+label {
+    margin-top: 20px;
+}
+
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+}
